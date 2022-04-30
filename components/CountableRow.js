@@ -12,9 +12,7 @@ export const CountableRow = ({ countable, changeCounts, onDelete, onEdit }) => {
       <View style={styles.nameColumn}>
         <TextInput
           style={CommonStyles.textItem}
-          onChangeText={(text) => {
-            setName(text);
-          }}
+          onChangeText={setName}
           onBlur={() => {
             if (!onEdit(countable, name)) setName(countable.name);
           }}
