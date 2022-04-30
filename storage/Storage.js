@@ -6,7 +6,7 @@ export const saveCountables = async (countables) => {
 };
 
 export const loadCountables = async () => {
-  AsyncStorage.clear();
+  //AsyncStorage.clear();
   const result = await AsyncStorage.getItem("countables");
   if (result) {
     return JSON.parse(result);

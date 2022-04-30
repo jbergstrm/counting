@@ -11,7 +11,7 @@ export const CommonStyles = StyleSheet.create({
     borderWidth: 3,
     borderRadius: 5,
     margin: 5,
-    paddingEnd: 20,
-    paddingStart: 20,
+    paddingEnd: 5,
+    paddingStart: 5,
   },
 });
